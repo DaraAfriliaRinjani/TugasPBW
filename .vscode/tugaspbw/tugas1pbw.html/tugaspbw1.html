@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+    <h2>Form Pendaftaran Sederhana</h2>
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <td><label for="nama">Nama:</label></td>
+                <td><input type="text" id="nama" name="nama"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin:</td>
+                <td>
+                    <input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki">
+                    <label for="laki">Laki-laki</label>
+                    <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+                    <label for="perempuan">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi:</td>
+                <td>
+                    <input type="checkbox" id="musik" name="hobi" value="Musik">
+                    <label for="musik">Musik</label>
+                    <input type="checkbox" id="olahraga" name="hobi" value="Olahraga">
+                    <label for="olahraga">Olahraga</label>
+                    <input type="checkbox" id="menggambar" name="hobi" value="Menggambar">
+                    <label for="menggambar">Menggambar</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="kota">Pilih Kota:</label></td>
+                <td>
+                    <select id="kota" name="kota">
+                        <option value="Jakarta">Jakarta</option>
+                        <option value="Bandung">Bandung</option>
+                        <option value="Karawang">Karawang</option>
+                        <option value="Bogor">Bogor</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="foto">Upload Foto:</label></td>
+                <td><input type="file" id="foto" name="foto"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Daftar</button>
+                    
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

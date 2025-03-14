@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label>Jenis Kelamin:</label>
+        <input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki">
+        <label for="laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+        <label for="perempuan">Perempuan</label><br><br>
+<p>
+        <label><input type="checkbox" name="hobi" value="musik"> Musik</label>
+        <label><input type="checkbox" name="hobi" value="olahraga"> Olahraga</label>
+		<label><input type="checkbox" name="hobi" value="membaca"> Membaca</label>
+</p>     
+<p>	
+		<form action="upload.php" method="post" enctype"multipart/form-data">
+		<label for="file">Pilih File:</label>
+		<input type="file" id="file" name="file">
+		<button type="submit">Unggah</button>
+		</form>
+ </p>

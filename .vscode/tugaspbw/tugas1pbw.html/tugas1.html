@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border: 2px solid black; /* Kotak di pinggir */
+            width: 450px;
+        }
+        table {
+            width: 100%;
+        }
+        td {
+            padding: 8px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, select {
+            width: 100%;
+            padding: 6px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+        }
+        .radio-group, .checkbox-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        button {
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td><label for="nama">Nama:</label></td>
+                    <td><input type="text" id="nama" name="nama" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label>Jenis Kelamin:</label></td>
+                    <td class="radio-group">
+                        <input type="radio" id="Pria" name="jenis_kelamin" value="Pria" required>
+                        <label for="Pria">Pria</label>
+                        <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+                        <label for="perempuan">Perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Hobi:</label></td>
+                    <td class="checkbox-group">
+                        <input type="checkbox" id="musik" name="hobi" value="Musik">
+                        <label for="musik">Musik</label>
+                        <input type="checkbox" id="olahraga" name="hobi" value="Olahraga">
+                        <label for="olahraga">Olahraga</label>
+                        <input type="checkbox" id="menggambar" name="hobi" value="Menggambar">
+                        <label for="menggambar">Menggambar</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="kota">Pilih Kota:</label></td>
+                    <td>
+                        <select id="kota" name="kota">
+                            <option value="Jakarta">Jakarta</option>
+                            <option value="Bandung">Bandung</option>
+                            <option value="Karawang">Karawang</option>
+                            <option value="Bogor">Bogor</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="foto">Upload Foto:</label></td>
+                    <td><input type="file" id="foto" name="foto"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit">Daftar</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
