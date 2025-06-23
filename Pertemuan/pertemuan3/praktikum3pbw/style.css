@@ -2,80 +2,88 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- } 
+} 
  
- 
- header {
-    background-color: #9c1328;
+header {
+    background-color: #ff2d81;
     color: white;
     text-align: center;
     padding: 20px;
- }
- 
- 
- 
- 
- nav {
-    background-color: #d73e3e;
+}
+
+nav {
+    background-color: #ff2d81;
     padding: 10px;
     text-align: center;
- }
- 
- 
- nav ul {
+}
+
+nav ul {
     list-style: none;
-  }
- 
- 
- nav ul li {
+}
+
+nav ul li {
     display: inline;
     margin: 0 15px;
-  }
- 
-  nav ul li a {
+}
+
+nav ul li a {
     color: white;
     text-decoration: none;
- }
- 
- 
- 
- 
- .container {
+}
+
+.container {
     display: flex;
     justify-content: space-between;
     padding: 20px;
- }
-  
- .content {
+}
+
+.content {
     flex: 2;
     padding: 20px;
     background-color: #ECF0F1;
     border-radius: 10px;
- }
-  
- .sidebar {
+}
+
+.sidebar {
     flex: 1;
     padding: 20px;
     background-color: #BDC3C7;
     border-radius: 10px;
     margin-left: 20px;
- }
- 
- 
- footer {
- 
+}
+
+/* Tambahan untuk link di sidebar */
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.sidebar a:hover {
+    color: hotpink;
+}
+
+footer {
     text-align: center;
     padding: 10px;
     background-color: #2C3E50;
     color: white;
     margin-top: 20px;
- }
- 
- 
- .btn {
+}
+
+.btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #db343f;
+    background-color: #ff2d81;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -83,11 +91,9 @@
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
- }
- 
- 
- .btn:hover {
+}
+
+.btn:hover {
     background-color: #2980B9;
     transform: scale(1.1);
- }
- 
+}

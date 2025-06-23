@@ -7,8 +7,8 @@
         {
             "type": "msedge",
             "request": "launch",
-            "name": "Open tugas2.html",
-            "file": "c:\\laragon\\www\\TugasPBW\\tugas2.html"
+            "name": "Open praktikum5pbw.html",
+            "file": "c:\\laragon\\www\\TugasPBW\\Pertemuan\\pertemuan5\\praktikum5pbw\\praktikum5pbw.html"
         }
     ]
 }

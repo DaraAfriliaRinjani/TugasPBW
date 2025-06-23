@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UTS PBW - DaraAfriliaRinjani</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eee;
+    }
+
+    /* Header */
+    header {
+      background-color: #760303;
+      color: white;
+      padding: 15px 20px;
+      font-size: 20px;
+    }
+
+    /* Container */
+    .container {
+      display: flex;
+      height: calc(100vh - 60px); /* Adjust for header */
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 250px;
+      background-color: #c02222;
+      color: white;
+      padding: 30px 20px;
+    }
+
+    .sidebar h2 {
+      margin-bottom: 10px;
+      font-size: 22px;
+    }
+
+    .sidebar h3 {
+      margin-bottom: 30px;
+      font-size: 22px;
+    }
+
+    .sidebar p {
+      font-size: 15px;
+      margin-bottom: 40px;
+    }
+
+    .menu ul {
+      list-style: none;
+    }
+
+    .menu li {
+      padding: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    .menu .active {
+      background-color: #e8f2f1;
+      color: black;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    /* Main Content */
+    .main-content {
+      flex: 1;
+      padding: 30px;
+      background-color: white;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #c02222;
+      color: white;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+    }
+
+    .card h3 {
+      font-size: 20px;
+      margin-bottom: 80px;
+    }
+
+    .card p {
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    .tags {
+      margin-top: 10px;
+    }
+
+    .tag {
+      display: inline-block;
+      background-color: #ebebeb;
+      color: black;
+      padding: 5px 10px;
+      font-weight: bold;
+      margin-right: 5px;
+      border-radius: 5px;
+      font-size: 13px;
+    }
+
+    .Github-link {
+      display: inline-block;
+      margin-top: 5px;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      background-color: #444;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    .Github-link:hover {
+      background-color: #222;
+    }
+
+    a {
+      display: inline-block;
+      color: #e5e9e0;
+      font-weight: bold;
+      margin-top: 5px;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><strong>UTS PBW</strong></h1>
+    <span>Pemograman Berbasis WEB</span><br>
+    <span>Informatika - Universitas Singaperbangsa Karawang</span>
+  </header>
+
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2><strong>Nama : DARA AFRILIA RINJANI</strong></h2>
+      <h3>NPM: 2310631170011</h3>
+      <h4><strong>Menu:</strong></h4>
+      <li><strong>Pertemuan</strong></li>
+      <p>Di dalam pertemuan ini sudah ada Tugas & Praktikumnya</p>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="card-grid">
+        <!-- Pertemuan 1 -->
+        <div class="card">
+          <h3><strong>Pertemuan 1</strong></h3>
+          <p><strong>Membuat halaman website portofolio sederhana dengan tag HTML</strong></p>
+          <div class="tags">
+            <span class="tag html">HTML</span>
+            <a href="https://github.com/DaraAfriliaRinjani/TugasPBW/tree/31d287e5da3156b2fbdde02c3b34066f4206d4a9/Pertemuan/pertemuan1" target="_blank" class="Github-link">Github</a>
+            <a href="Pertemuan/pertemuan1/tugas1pbw/tugas1pbw.html">Preview Tugas1</a>
+            <a href="Pertemuan/pertemuan1/praktikum1pbw/praktikum1.html">Preview Praktikum1</a>
+          </div>
+        </div>
+
+        <!-- Pertemuan 2 -->
+        <div class="card">
+          <h3><strong>Pertemuan 2</strong></h3>
+          <p><strong>Membuat form biodata sederhana menggunakan tag HTML.</strong></p>
+          <div class="tags">
+            <span class="tag html">HTML</span>
+            <a href="https://github.com/DaraAfriliaRinjani/TugasPBW/tree/31d287e5da3156b2fbdde02c3b34066f4206d4a9/Pertemuan/pertemuan2" target="_blank" class="Github-link">Github</a>
+            <a href="Pertemuan/pertemuan2/tugas2pbw/2tugaspbw.html">Preview Tugas2</a>
+            <a href="Pertemuan/pertemuan2/tugas2pbw/tugas2pbw.html">Preview Praktikum2</a>
+          </div>
+        </div>
+
+        <!-- Pertemuan 3 -->
+        <div class="card">
+          <h3><strong>Pertemuan 3</strong></h3>
+          <p><strong>Membuat website sederhana berisi form biodata menggunakan HTML dan CSS.</strong></p>
+          <div class="tags">
+            <span class="tag html">HTML</span>
+            <span class="tag css">CSS</span>
+            <a href="https://github.com/DaraAfriliaRinjani/TugasPBW/tree/31d287e5da3156b2fbdde02c3b34066f4206d4a9/Pertemuan/pertemuan3" target="_blank" class="Github-link">Github</a>
+            <a href="Pertemuan/pertemuan3/tugas3pbw/tugas3pbw.html">Preview tugas3</a>
+            <a href="Pertemuan/pertemuan3/praktikum3pbw/praktikum3pbw.html">Preview Praktikum3</a>
+          </div>
+        </div>
+
+        <!-- Pertemuan 4/5 -->
+        <div class="card">
+          <h3><strong>Pertemuan 4 atau 5</strong></h3>
+          <p><strong>Membuat konversi nilai angka ke huruf dengan JavaScript.</strong></p>
+          <div class="tags">
+            <span class="tag html">HTML</span>
+            <span class="tag css">CSS</span>
+            <span class="tag js">JavaScript</span>
+            <a href="https://github.com/DaraAfriliaRinjani/TugasPBW/tree/31d287e5da3156b2fbdde02c3b34066f4206d4a9/Pertemuan/pertemuan5" target="_blank" class="Github-link">Github</a>
+            <a href="Pertemuan/pertemuan5/tugas5pbw/tugas5pbw.html">Preview tugas4/5</a>
+            <a href="Pertemuan/pertemuan5/praktikum5pbw/praktikum5pbw.html">Preview Praktikum4/5</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
